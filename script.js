@@ -71,7 +71,7 @@ function chuvaAmor() {
         chuvaAmor();
     }
 // Eloá, Arthur Oliveira, Arthur Gabriel, Emanuelly, Breno, Maria Clara, Ana Clara, Yago [ 7 menbros ]
-    else if (chave === "1235 ") {
+    else if (chave === "1235") {
         resultado.textContent = "Sua Preseça Faz Diferença!";
         chuvaAmor();
     }
