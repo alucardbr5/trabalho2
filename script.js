@@ -47,31 +47,31 @@ function chuvaAmor() {
         chuvaDeDordre();
 
 // Halley • Lucas Davi • Ande67 • Issac • Heitor • isabeli • [ 6 menbros ]
-    } else if (chave === "3 2 4 3") {
+    } else if (chave === "3243") {
         resultado.textContent = "💖 Onde há amor, há luz";
         chuvaAmor();
 
 // Bianka • Samuel • Felipe • Lavínia • Gabriel • Leandro • Yann • Ketelen • Maria Eduarda • [ 9 menbros ]
-    } else if (chave === "2 1 3 2") {
+    } else if (chave === "2132") {
         resultado.textContent = "Você é o pensamento favorito de alguém";
         chuvaAmor();
     }
 // Marinny, Larissa, Yasmin, Sophia, Wanessa, Isabelly car., Rayssa, Ryan [ 8 menbros ]
-     else if (chave === "2 1 1 1") {
+     else if (chave === "2111") {
         resultado.textContent = "Soulmate";
         chuvaAmor();
     }
 // Ana Júlia • Guilherme • Isabelly de Oliveira • João Victor • Lucas dos Santos • Marialyce • Neitiany • Rafaella • [ 8 menbros ]
-    else if (chave === "13 1 5 4") {
+    else if (chave === "13154") {
         resultado.textContent = "Entre bilhões de almas, as nossas se entrelaçaram como se sempre soubessem para onde ir.";
         chuvaAmor();
     }
-    else if (chave === "3 1 5 4") {
+    else if (chave === "3154") {
         resultado.textContent = "As melhores e mais belas coisas do mundo não podem ser vistas ou mesmo tocadas; elas devem ser sentidas com o coração.";
         chuvaAmor();
     }
 // Eloá, Arthur Oliveira, Arthur Gabriel, Emanuelly, Breno, Maria Clara, Ana Clara, Yago [ 7 menbros ]
-    else if (chave === "1 2 3 5") {
+    else if (chave === "1235") {
         resultado.textContent = "Sua Preseça Faz Diferença!";
         chuvaAmor();
     }
