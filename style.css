@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #ff4d6d,
+        #ff758f,
+        #ffb3c1
+    );
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    color: rgb(255, 63, 175);
+    font-size: 3rem;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.card{
+    width: 400px;
+    background: rgba(255,255,255,0.95);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.input-box{
+    width: 100%;
+
+    padding: 14px;
+
+    border: 2px solid #ff758f;
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.input-box:focus{
+    border-color: #ff1744;
+    transform: scale(1.02);
+}
+
+button{
+    padding: 14px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #ff1744;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #d50032;
+    transform: translateY(-2px);
+}
+
+#resultado{
+    margin-top: 10px;
+
+    color: #c2185b;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    min-height: 25px;
+}
+
+.phone{
+    width: 380px;
+    height: 750px;
+
+    background: white;
+
+    border: 12px solid #222;
+    border-radius: 40px;
+
+    padding: 30px;
+
+    box-shadow: 0 20px 50px rgba(0,0,0,.3);
+
+    overflow: hidden;
+}
+
+@media (max-width: 600px){
+
+    .phone{
+        width: 100vw;
+        height: 100vh;
+
+        border: none;
+        border-radius: 0;
+
+        padding: 20px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+h1{
+    text-align: center;
+
+    color: rgb(255, 63, 175);
+
+    font-size: 3rem;
+    font-weight: 800;
+
+    margin-bottom: 30px;
+
+    letter-spacing: 1px;
+
+    text-shadow:
+        0 4px 10px rgba(0,0,0,.15);
+
+    
+}
+
+.dordre {
+    position: fixed;
+    top: -100px;
+    pointer-events: none;
+    z-index: 9999;
+    animation: cair linear forwards;
+}
+
+.amor {
+    position: fixed;
+    top: -100px;
+    pointer-events: none;
+    z-index: 9999;
+    animation: cair linear forwards;
+}
+
+@keyframes cair {
+    from {
+        transform: translateY(0) rotate(0deg);
+    }
+    to {
+        transform: translateY(110vh) rotate(720deg);
+    }
+}
+
+
+
