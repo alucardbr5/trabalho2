@@ -62,7 +62,7 @@ function chuvaAmor() {
         chuvaAmor();
     }
 // Ana Júlia • Guilherme • Isabelly de Oliveira • João Victor • Lucas dos Santos • Marialyce • Neitiany • Rafaella • [ 8 menbros ]
-    else if (chave === "3 1 5 4") {
+    else if (chave === "13 1 5 4") {
         resultado.textContent = "Entre bilhões de almas, as nossas se entrelaçaram como se sempre soubessem para onde ir.";
         chuvaAmor();
     }
